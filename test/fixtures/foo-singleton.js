@@ -2,18 +2,14 @@
 
 var singleton = require('../../');
 
-singleton('__FOO__', function (existing) {
+// #ifndef
+singleton('__FOO__', module, function () {
+// #define __FOO__
 
 var path = require('path');
-
-if (existing) { 
-  module.exports = existing;
-  return;
-}
 
 exports.hello = 'world';  
 exports.filename = path.basename(__filename);
 
-return module.exports;
-
+// #endif
 })

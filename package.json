@@ -16,7 +16,7 @@
     "devDependencies" : {
       "tap": "~0.4.3"
     },
-    "keywords": [ "singleton", "global" ] ,
+    "keywords": [ "singleton", "global", "#ifndef", "pragma" ] ,
     "author" : {
       "name" : "Thorsten Lorenz",
       "email" : "thlorenz@gmx.de",
