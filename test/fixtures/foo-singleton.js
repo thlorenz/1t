@@ -11,5 +11,5 @@ var path = require('path');
 exports.hello = 'world';  
 exports.filename = path.basename(__filename);
 
-// #endif
 })
+// #endif
