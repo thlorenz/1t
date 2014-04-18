@@ -1,0 +1,30 @@
+{
+    "name" : "1t",
+    "version" : "0.0.0",
+    "description" : "Ensures that only one instance of your module exists either serverside or in the browser.",
+    "main" : "index.js",
+    "scripts" : {
+      "test" :  "tap test/*.js"
+    },
+    "repository" : {
+      "type" : "git",
+      "url" : "git://github.com/thlorenz/1t.git"
+    },
+    "homepage" : "https://github.com/thlorenz/1t",
+    "dependencies" : {
+    },
+    "devDependencies" : {
+      "tap": "~0.4.3"
+    },
+    "keywords": [ "singleton", "global" ] ,
+    "author" : {
+      "name" : "Thorsten Lorenz",
+      "email" : "thlorenz@gmx.de",
+      "url" : "http://thlorenz.com"
+    },
+    "license" : {
+      "type": "MIT",
+      "url": "https://github.com/thlorenz/1t/blob/master/LICENSE"
+    },
+    "engine" : { "node" : ">=0.6" }
+}
