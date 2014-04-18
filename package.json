@@ -2,7 +2,7 @@
     "name" : "1t",
     "version" : "0.0.0",
     "description" : "Ensures that only one instance of your module exists either serverside or in the browser.",
-    "main" : "index.js",
+    "main" : "1t.js",
     "scripts" : {
       "test" :  "tap test/*.js"
     },
